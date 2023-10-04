@@ -1,0 +1,89 @@
+
+.background-image {
+  background: url('https://www.seycoffee.com/cdn/shop/files/elida_5760x.jpg?v=1613535023') no-repeat center center;
+  background-size: contain;
+  height: 1000px;
+  width: 2000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body{
+  font-family:  "sans-serif",serif;
+
+}
+.grad-background {
+  background: url('https://www.seycoffee.com/cdn/shop/files/elida_5760x.jpg?v=1613535023');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/*
+.navbar-brand::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 70%;
+  right:500px;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 1px;
+  background-color: #f0f0f0;;
+}
+*/
+.nav-link {
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 20px;
+  color:darkgray;
+  font-family: "sans-serif";
+  font-size:15px;
+}
+
+
+.logo-padding {
+  margin-left: 100px; /* 这里的20px可以根据你的需要进行调整 */
+}
+
+.left-text-position {
+  left: -30%;  /* 你可以根据需要调整这个百分比 */
+}
+
+.white-button {
+  display: inline-block;
+  background-color: transparent; /* 设置为透明 */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+
+.footer-left-content p {
+  margin-bottom: 0rem;
+}
+.col-md-4 text-center{
+  margin-bottom: 0rem;
+
+}
+
+
+.input-with-bottom-line .form-control {
+  border: none;
+  border-bottom: 1px solid #000;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+}
+
+.input-with-bottom-line .form-control:focus {
+  border-color: #000;
+}
+.shorter-input {
+  max-width: 200px;
+}
